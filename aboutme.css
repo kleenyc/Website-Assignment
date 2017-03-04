@@ -1,0 +1,119 @@
+
+body { 
+	background-color: #FBE9E7;
+	font-family: "Lucida Console", monospace;
+	color: #4E342E;
+	font-size: 12pt;
+}
+
+
+.menu-list {	
+		background-image: url(wood-bkgd.jpg);
+		background-repeat: no-repeat;
+		list-style: none;
+		padding: 8px;
+		margin: 0;
+		overflow: hidden;
+		position: fixed;
+		top: 0;
+		width: 100px;
+}
+
+li a {
+	display: block;
+	width: 100px;
+	height: 30px;
+}
+
+a:link { 
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+}
+
+div:hover a:hover { 
+	color: #FF8A65;
+}
+
+a.active {
+	background-color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+.centered-heading { 
+	background-color: white;
+	width: auto;
+	text-align: center;
+	color: #FF8A65;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+
+.groupingset-left {	
+	width: 45%;
+	text-align: center;
+	padding: 5px 15px 30px 15px;
+	margin: 5px;
+	float: left;
+	box-sizing: border-box;
+}
+
+
+span {
+	font-style: italic;
+}
+
+
+img {
+	border: 1px solid #FFCDD2;
+	padding: 10px;
+}
+
+
+.middle-heading {
+	background-color: white;
+	text-align: center;
+	color: #FF8A65;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin: auto;
+	width: 90%;
+	
+}
+
+	@media (max-width: 600px) {
+		.groupingset-left {	
+			width: auto;
+			text-align: center;
+			padding: 10px;
+			float: none;
+	}
+
+		.menu-list {	
+			position: absolute;
+			top: 0;		
+	}
+
+		div:hover a:hover { 
+			color: white;
+	}
+	
+
+	
+}
+
+
+
+
+
+
+
+
+
