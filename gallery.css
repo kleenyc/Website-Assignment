@@ -7,15 +7,15 @@ body {
 }
 
 .menu-list {	
-		background-image: url(wood-bkgd.jpg);
-		background-repeat: no-repeat;
-		list-style: none;
-		padding: 8px;
-		margin: 0;
-		overflow: hidden;
-		position: fixed;
-		top: 0;
-		width: 100px;
+	background-image: url(wood-bkgd.jpg);
+	background-repeat: no-repeat;
+	list-style: none;
+	padding: 8px;
+	margin: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100px;
 }
 
 li a {
@@ -43,7 +43,6 @@ div:active {
 	color: #FF8A65;
 }
 
-
 img {
 	border: 20px solid #FBE9E7;
 }
@@ -62,12 +61,6 @@ img {
 	padding-top: 30px;
 }
 
-
-
-.image-set {
-	text-align: center;
-}
-
 .middle-heading {
 	background-color: white;
 	text-align: center;
@@ -77,20 +70,14 @@ img {
 	width: 95%;
 }
 
-.media {
-/*	width:20px;
-	height:20px;*/
-}
-
-
-.center {
+.image-set {
 	text-align: center;
 }
 
 	@media (max-width: 600px) {
 		.image-set {
 			float: left;
-		}
+	}
 
 		.menu-list {	
 			position: absolute;

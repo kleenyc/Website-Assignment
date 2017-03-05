@@ -7,15 +7,15 @@ body {
 }
 
 .menu-list {	
-		background-image: url(wood-bkgd.jpg);
-		background-repeat: no-repeat;
-		list-style: none;
-		padding: 8px;
-		margin: 0;
-		overflow: hidden;
-		position: fixed;
-		top: 0;
-		width: 100px;		
+	background-image: url(wood-bkgd.jpg);
+	background-repeat: no-repeat;
+	list-style: none;
+	padding: 8px;
+	margin: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100px;		
 }
 
 li a {
@@ -54,7 +54,6 @@ a:visited {
 }
 
 .story-box {
-
 	margin-top: 60px;
 }
 
@@ -69,9 +68,7 @@ img {
 	text-align: left;
 	margin: auto;
 	box-sizing: border-box;
-
 }
-
 
 
 span {
@@ -79,41 +76,20 @@ span {
 	font-size: 10pt;
 }
 
-
-
-/*
-.story {
-	padding: 20px 15px;
-	width: 65%
-}
-*/
-
-/*
-.middle-heading {
-	font-size: 14pt;
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 8px;
-}
-
-.center {
-	text-align: center;
-}*/
-
 	@media (max-width: 600px) {
 		
 		.story-box {
 			text-align: center;
-		}
+	}
 
 		.text {
-			float: none;
-			
-		}
+			float: none;		
+	}
+
 		img {
 			float: none;
 			text-align: center;
-		}
+	}
 
 		.menu-list {	
 			position: absolute;

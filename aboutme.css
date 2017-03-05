@@ -6,17 +6,16 @@ body {
 	font-size: 12pt;
 }
 
-
 .menu-list {	
-		background-image: url(wood-bkgd.jpg);
-		background-repeat: no-repeat;
-		list-style: none;
-		padding: 8px;
-		margin: 0;
-		overflow: hidden;
-		position: fixed;
-		top: 0;
-		width: 100px;
+	background-image: url(wood-bkgd.jpg);
+	background-repeat: no-repeat;
+	list-style: none;
+	padding: 8px;
+	margin: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100px;
 }
 
 li a {
@@ -44,7 +43,6 @@ a:visited {
 	color: white;
 }
 		
-
 .centered-heading { 
 	background-color: white;
 	width: auto;
@@ -53,7 +51,6 @@ a:visited {
 	padding-top: 4px;
 	padding-bottom: 4px;
 }
-
 
 .groupingset-left {	
 	width: 45%;
@@ -69,19 +66,14 @@ img {
 	border: 15px solid white;
 }
 
-
-
-
 span {
 	font-style: italic;
 }
-
 
 .bio-img {
 	border: 1px solid #FFCDD2;
 	padding: 10px;
 }
-
 
 .middle-heading {
 	background-color: white;
@@ -89,7 +81,6 @@ span {
 	color: #FF8A65;
 	margin: auto;
 	width: 90%;
-
 }
 
 	@media (max-width: 600px) {
